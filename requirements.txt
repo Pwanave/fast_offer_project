@@ -1,6 +1,6 @@
-transformers==4.30.2
-newspaper3k==0.2.8
-rake-nltk==1.0.4
-streamlit==1.22.0
-requests==2.31.0
-torch==2.0.1
+transformers
+newspaper3k
+rake-nltk
+streamlit
+requests
+torch
