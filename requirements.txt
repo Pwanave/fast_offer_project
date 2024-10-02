@@ -4,3 +4,4 @@ rake-nltk
 streamlit
 requests
 torch
+lxml[html_clean]
