@@ -11,7 +11,7 @@ qa_pipeline = pipeline("question-answering", model="deepset/roberta-base-squad2"
 st.markdown("""
     <style>
         .main {
-            background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Ftech-gradient-background%2F59&psig=AOvVaw3LtqCEYeWbVaVbU0qu0UDz&ust=1727939506901000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLi3r8KS74gDFQAAAAAdAAAAABBJ'); 
+           
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
