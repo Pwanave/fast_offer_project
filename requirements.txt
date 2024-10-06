@@ -1,5 +1,8 @@
 streamlit==1.25.0
 newspaper3k==0.2.8
+nltk
 transformers==4.31.0
 rake-nltk==1.0.4
 torch==2.0.1 
+
+
