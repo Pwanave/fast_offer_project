@@ -4,5 +4,6 @@ nltk
 transformers
 rake-nltk
 torch
+lxml[html_clean] 
 
 
