@@ -1,0 +1,138 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif; /* Modern, sleek font */
+    background-color: #181818; /* Deep dark background for aesthetics */
+    color: #ffffff; /* White text for contrast */
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #2b2b2b; /* Soft black sidebar */
+    padding: 30px;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    box-shadow: 2px 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar h2 {
+    color: #1DB954; /* Spotify green */
+    text-align: center;
+    font-size: 24px;
+}
+
+.url-input {
+    margin: 15px 0;
+    padding: 12px;
+    width: 100%;
+    background-color: #333; /* Dark input background */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.dropdown {
+    margin: 15px 0;
+    padding: 12px;
+    width: 100%;
+    background-color: #333; /* Dark dropdown background */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.analyze-btn {
+    margin-top: 20px;
+    padding: 12px;
+    width: 100%;
+    background-color: #1DB954; /* Bright green analyze button */
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.analyze-btn:hover {
+    background-color: #17a249; /* Slightly darker green on hover */
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 320px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 320px);
+}
+
+/* Greeting Section */
+.greeting {
+    background-color: #121212; /* Spotify dark grey */
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.greeting h1 {
+    font-size: 3rem; /* Large and modern */
+    color: #1DB954; /* Spotify green */
+    margin-bottom: 20px;
+}
+
+.greeting p {
+    font-size: 1.2rem;
+    color: #b3b3b3; /* Light grey */
+}
+
+/* Results Section */
+.results {
+    margin-top: 30px;
+    background-color: #2b2b2b; /* Dark results background */
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.results h2 {
+    color: #1DB954; /* Bright green results heading */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.results ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.results ul li {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Add hover effect to the list items for interaction */
+.results ul li:hover {
+    background-color: #444;
+    transition: background-color 0.3s ease;
+}
