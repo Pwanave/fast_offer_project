@@ -2,6 +2,9 @@ import streamlit as st
 from newspaper import Article
 from transformers import pipeline
 from rake_nltk import Rake
+import os
+port = os.environ.get('PORT', 8501)  # Default to 8501 if PORT is not set
+st.run(port=port)
 
 # Load models for summarization and question answering
 summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
